@@ -1,0 +1,57 @@
+.contain {
+    @apply h-screen bg-gradient-to-b from-gray-600 via-gray-700 to-gray-700 flex flex-col lg:flex-row justify-center items-center;
+    scroll-behavior: smooth;
+}
+
+.boxes {
+    @apply flex flex-col  justify-center items-center;
+}
+
+.titlebox {
+    @apply  flex flex-col justify-center lg:bg-gray-800 py-4 xl:mt-8 mt-4 md:mx-4 xs:mx-2 items-center shadow-lg p-2 rounded-3xl mb-4 md:mb-8;
+}
+
+.title {
+    @apply xs:pb-4 md:text-8xl text-6xl text-center xl:mx-8 lg:mx-4 xl:pt-6 xl:mt-4 lg:text-9xl font-serif text-white;
+}
+
+.description {
+    @apply py-1 font-serif md:text-xl mx-4 xs:mx-2 text-justify tracking-tight max-w-prose lg:max-w-lg lg:text-2xl xl:text-3xl xl:pb-12 xl:pt-8 flex justify-center items-center  text-gray-100;
+}
+
+.techbox {
+    @apply flex flex-row justify-evenly py-2  lg:py-4 mx-4 xl:pt-8 bg-gray-500 rounded-2xl rounded-b-none;
+}
+.techitem {
+    @apply pt-4 flex flex-col justify-center hover:shadow-2xl hover:bg-gray-400 rounded-xl transition-colors duration-150 items-center xs:px-3 md:px-6;
+}
+
+.codebox {
+    @apply flex flex-row justify-evenly py-2 sm:mb-1 xs:mb-8 lg:py-4 mx-4  xl:pt-8  bg-blue-100 bg-opacity-50 rounded-2xl rounded-t-none ;
+}
+
+.codeitem {
+    @apply p-1 flex flex-col justify-center hover:shadow-2xl hover:bg-gray-500 rounded-xl transition-colors duration-150 items-center xs:px-3 md:px-6 ;
+}
+
+.codeitemtitle {
+    @apply  text-gray-100 antialiased py-2 md:py-4 lg:py-6 md:text-lg xs:text-sm lg:text-xl xl:text-2xl  font-bold text-center;
+}
+
+.techitemtitle {
+    @apply  text-gray-100 antialiased py-2 md:py-4 lg:py-6 md:text-lg lg:text-xl xs:text-sm xl:text-2xl  font-bold text-center;
+}
+
+.navarrow {
+    @apply  xs:w-10 z-40  lg:pt-0 animate-bounce;
+    scroll-behavior: smooth;
+}
+
+.spannav {
+    @apply bg-gray-700;
+}
+
+.navanchor {
+    @apply w-full  bg-gray-700 flex flex-col justify-center xl:pb-0 md:pb-24 lg:pb-3 -mt-8 items-center;
+    scroll-behavior: smooth;
+}
