@@ -1,10 +1,10 @@
 .main {
-    @apply   flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 via-gray-900 to-black;
+    @apply   flex flex-col justify-center items-center bg-gray-200 ;
 }
 
 
 .blurb {
-    @apply flex md:flex-row xs:mt-12 bg-gray-100 shadow-2xl  mt-4 xs:m-4 md:mx-0 md:pt-0 xs:flex-col;
+    @apply flex md:flex-row xs:mt-12 bg-gray-100 md:rounded-none shadow-2xl  mt-4 xs:m-4 md:mx-0 md:pt-0 xs:flex-col;
 }
 
 .title {
@@ -16,7 +16,7 @@
 }
 
 .description {
-    @apply text-justify md:bg-transparent  md:py-0 xs:py-1 rounded-lg max-w-prose xs:px-2 md:px-4 tracking-tight lg:leading-relaxed lg:text-lg ;
+    @apply md:bg-transparent  md:py-0 xs:py-1 rounded-lg max-w-prose xs:px-2 md:px-4 tracking-tight text-justify lg:leading-relaxed lg:text-lg ;
 }
 
 .img {
@@ -31,11 +31,13 @@
 }
 
 .navarrow {
-    @apply  xs:w-10 z-40 bg-white rounded-xl bg-opacity-60 animate-bounce;
+    @apply  xs:w-10 z-40 bg-white bg-opacity-70 rounded-xl animate-bounce;
     scroll-behavior: smooth;
 }
 
-
+.spannav {
+    @apply bg-gray-700;
+}
 
 .navanchor {
     @apply w-full   flex flex-col justify-center xl:pb-0 md:pb-24 lg:pb-3 items-center;

@@ -1,0 +1,7 @@
+.main {
+    @apply h-screen max-h-screen  justify-center bg-gray-800 flex flex-row  ;
+}
+
+.textbox{
+   @apply text-7xl text-white font-serif mt-20 my-4; 
+}

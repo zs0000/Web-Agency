@@ -17,6 +17,7 @@ module.exports = {
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1920px',
+      '3xl': '1999px',
       // => @media (min-width: 1280px) { ... }
     },
     colors: {
@@ -27,7 +28,7 @@ module.exports = {
       gray: colors.blueGray,
       blue: colors.blue,
       red: colors.rose,
-      cyan: colors.cyan,
+      amber: colors.amber,
     },
   },
   variants: {

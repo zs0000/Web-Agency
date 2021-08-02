@@ -5,7 +5,7 @@
 }
 
 .content {
-    @apply flex justify-center font-serif bg-white xs:bg-gradient-to-b from-gray-200 via-gray-400 xs:via-gray-300 xs:to-gray-600 to-gray-700 items-center md:justify-end lg:pr-20 xl:pr-44 pb-20  w-full h-screen z-40 ;
+    @apply flex justify-center font-serif bg-white xs:bg-gradient-to-b from-gray-200 via-gray-400 xs:via-gray-300 xs:to-gray-600 to-gray-700 items-center md:justify-end lg:pr-20 xl:pr-44 pb-20 3xl:justify-center  3xl:items-start w-full h-screen z-40 ;
 }
 
 .description {
@@ -13,7 +13,7 @@
 }
 
 .centerbox {
-    @apply flex flex-col justify-center bg-gray-50 xs:bg-opacity-90 shadow lg:rounded-xl items-center text-center z-40 md:pb-4  pb-1;
+    @apply flex flex-col justify-center bg-gray-50 xs:bg-opacity-90 shadow lg:rounded-xl items-center text-center 3xl:mt-96 z-40 md:pb-4  pb-1;
     -webkit-animation: fade-in-bottom 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in-bottom 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
