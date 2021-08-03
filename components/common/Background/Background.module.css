@@ -1,5 +1,5 @@
 .background {
-    @apply absolute overflow-y-hidden max-h-screen z-40;
+    @apply absolute overflow-y-hidden max-h-screen h-screen z-40;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */

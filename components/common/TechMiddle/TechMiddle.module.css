@@ -1,5 +1,5 @@
 .contain {
-    @apply h-screen bg-gradient-to-t from-gray-700 via-gray-500 to-gray-400 flex flex-col lg:flex-row justify-center items-center;
+    @apply h-screen bg-gradient-to-t from-gray-600 via-gray-400 to-gray-200 flex flex-col lg:flex-row justify-center items-center;
     scroll-behavior: smooth;
 }
 
@@ -47,11 +47,8 @@
     scroll-behavior: smooth;
 }
 
-.spannav {
-    @apply bg-gray-700;
-}
 
 .navanchor {
-    @apply w-full  bg-gray-700 flex flex-col justify-center xl:pb-0 md:pb-24 lg:pb-3 -mt-8 items-center;
+    @apply w-full   flex flex-col justify-center xl:pb-0 md:pb-24 lg:pb-3 -mt-8 items-center;
     scroll-behavior: smooth;
 }

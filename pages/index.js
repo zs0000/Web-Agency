@@ -3,9 +3,11 @@ import Background from '../components/common/Background/Background'
 import BlurbsContinued from '../components/common/BlurbContinued/BlurbsContinued'
 import Blurbs from '../components/common/Blurbs/Blurbs'
 import Container from "../components/common/Container/container"
+import ResponsiveDesktop from '../components/common/Desktop/ResponsiveDesktop'
 import Intro from '../components/common/Intro/intro'
 import Layout from "../components/common/Layout/layout"
 import Offer from '../components/common/Offer/Offer'
+import Responsive from '../components/common/Responsive/Responsive'
 import TechMiddle from "../components/common/TechMiddle/TechMiddle"
 
 export default function Home() {
@@ -21,12 +23,47 @@ export default function Home() {
         <Background />
       <Intro
       title="Sentry Bridge"
-      description="Modern Web Design and Development agency, Specializing in E-Commerce and SEO"
+      description="Modern Web Design Company, Specializing in Web Design, Development, and SEO Optimized builds."
       />
      <Offer
-     text="About Us"
-     description=""
+     text="Main Services We Offer"
+     description="Every project requires a different set of services depending on your needs. Some circumstantial 
+     services might be an SEO growth plan and maintenace,  or consulting services for web design or SEO purposes."
+    first="Responsive Web Design and Development"
+    firstservicedescription="The first impression is the most important. Let Sentry Bridge create a fast, breath-taking, 
+    website to ensure every first impression is memorable, and powerful. Drag and Drop Site builders create mediocre, non-unique websites.
+     Stand out with Sentry Bridge."
+    second="Design and SEO Consulting/Maintenance"
+    secondservicedescription="Work directly with a Designer and Developer to create an SEO growth plan, style mark ups, or audit your current site to identify what we 
+    call 'breaking points', and receive advice or assitance with implementation of your new found solutions."
+
      />
+     <Responsive 
+     title="Rigorous Testing"
+     text="Every website is guarenteed to be responsive to any device, testing over 20+ most commonly used resolutions for today's devices. User experience is incredibly important to us,
+     aswell as a very important metric. Whether you're a blog trying to gain subscribers, or an HVAC company trying to increase sales, a users experience is the core factor on whether or 
+     not its worth the stress or difficulty of using your service. That's why all of our Designs are created with every customer in mind, resulting in modern, and easy to use websites."
+     />
+      <ResponsiveDesktop 
+     title="Rigorous Testing"
+     text="Every website is guarenteed to be responsive to any device, testing over 20+ most commonly used resolutions for today's devices. User experience is incredibly important to us,
+     aswell as a very important metric. Whether you're a blog trying to gain subscribers, or an HVAC company trying to increase sales, a users experience is the core factor on whether or 
+     not its worth the stress or difficulty of using your service. That's why all of our Designs are created with every customer in mind, resulting in modern, and easy to use websites."
+     />
+     <TechMiddle 
+      title="Tech Stack"
+      description="Part of our strategy is utilizing Modern Software and Technology 
+      to create simple to use, yet powerful Web Products that offer our clients a competitive edge - through optimizing Our Web builds for Speed, Security, 
+      and Search Engine Optimization."
+      shopify="Shopify"
+       vercel="Vercel"
+        next="Next.js"
+         console="Console"
+          tailwind="Tailwind"
+           javascript="Javascript"
+            css="CSS 3"
+             html="HTML 5" 
+      />
      <BlurbsContinued
      lefttitle="Modern"
      leftdescription="At Sentry Bridge we follow new, strict industry practices in both our Design and Code 
@@ -55,20 +92,7 @@ export default function Home() {
      in Search Engines like Google, Bing, and DuckDuckGo." 
     
      />
- <TechMiddle 
-      title="Tech Stack"
-      description="Part of our strategy is utilizing Modern Software and Technology 
-      to create simple to use, yet powerful Web Products that offer our clients a competitive edge - through optimizing Our Web builds for Speed, Security, 
-      and Search Engine Optimization."
-      shopify="Shopify"
-       vercel="Vercel"
-        next="Next.js"
-         console="Console"
-          tailwind="Tailwind"
-           javascript="Javascript"
-            css="CSS 3"
-             html="HTML 5" 
-      />
+ 
 
       </Container>
     </Layout>

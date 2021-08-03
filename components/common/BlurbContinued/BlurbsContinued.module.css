@@ -4,11 +4,11 @@
 
 
 .blurb {
-    @apply flex md:flex-row xs:mt-12 bg-gray-100 md:rounded-none shadow-2xl  mt-4 xs:m-4 md:mx-0 md:pt-0 xs:flex-col;
+    @apply flex md:flex-row xs:mt-12 bg-gray-100 md:rounded-none shadow-2xl  mt-4 xs:m-4 md:mx-0 md:pt-0 xs:pb-4 md:pb-0 xs:flex-col;
 }
 
 .title {
-@apply text-center lg:text-6xl md:text-5xl xs:text-4xl xs:pb-2  font-serif md:mb-4 md:my-2;
+@apply text-center lg:text-6xl md:text-5xl xs:pt-2  xs:text-4xl xs:pb-2  font-serif md:mb-4 md:my-2;
 }
 
 .text {
@@ -16,7 +16,7 @@
 }
 
 .description {
-    @apply md:bg-transparent  md:py-0 xs:py-1 rounded-lg max-w-prose xs:px-2 md:px-4 tracking-tight text-justify lg:leading-relaxed lg:text-lg ;
+    @apply md:bg-transparent  md:py-0 xs:py-1 rounded-lg max-w-prose xs:px-4 md:px-4 tracking-tight text-justify lg:leading-relaxed lg:text-lg ;
 }
 
 .img {
@@ -31,7 +31,7 @@
 }
 
 .navarrow {
-    @apply  xs:w-10 z-40 bg-white bg-opacity-70 rounded-xl animate-bounce;
+    @apply  xs:w-10 z-40 bg-gray-600 bg-opacity-70 rounded-xl animate-bounce;
     scroll-behavior: smooth;
 }
 
