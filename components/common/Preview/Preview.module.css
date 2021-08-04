@@ -1,0 +1,28 @@
+.main {
+    @apply max-h-screen h-screen bg-gray-50 flex flex-col justify-center items-center;
+}
+
+.responsive {
+    @apply bg-none ;
+}
+
+.content {
+    @apply flex flex-col justify-center items-center;
+}
+
+
+.item {
+    @apply bg-none;
+}
+
+.text {
+    @apply flex flex-col font-serif justify-center items-center;
+}
+
+.title {
+    @apply text-5xl py-2 my-2; 
+}
+
+.description {
+    @apply text-xl py-2 my-2 text-justify max-w-prose mx-2;
+}

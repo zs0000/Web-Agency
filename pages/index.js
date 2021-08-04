@@ -2,13 +2,15 @@ import Head from 'next/head'
 import Background from '../components/common/Background/Background'
 import BlurbsContinued from '../components/common/BlurbContinued/BlurbsContinued'
 import Blurbs from '../components/common/Blurbs/Blurbs'
+import Contact from '../components/common/Contact/Contact'
 import Container from "../components/common/Container/container"
 import ResponsiveDesktop from '../components/common/Desktop/ResponsiveDesktop'
 import Intro from '../components/common/Intro/intro'
 import Layout from "../components/common/Layout/layout"
 import Offer from '../components/common/Offer/Offer'
+import TechMiddle from '../components/common/TechMiddle/TechMiddle'
 import Responsive from '../components/common/Responsive/Responsive'
-import TechMiddle from "../components/common/TechMiddle/TechMiddle"
+
 
 export default function Home() {
 
@@ -17,7 +19,8 @@ export default function Home() {
     
     <Layout>
       <Head>
-
+      <title>Sentry Bridge Web Design - Modern Websites Company</title>
+      
       </Head>
       <Container>
         <Background />
@@ -33,22 +36,21 @@ export default function Home() {
     firstservicedescription="The first impression is the most important. Let Sentry Bridge create a fast, breath-taking, 
     website to ensure every first impression is memorable, and powerful. Drag and Drop Site builders create mediocre, non-unique websites.
      Stand out with Sentry Bridge."
-    second="Design and SEO Consulting/Maintenance"
+    second="Web Design, SEO Growth and Maintenance plans"
     secondservicedescription="Work directly with a Designer and Developer to create an SEO growth plan, style mark ups, or audit your current site to identify what we 
     call 'breaking points', and receive advice or assitance with implementation of your new found solutions."
 
      />
      <Responsive 
-     title="Rigorous Testing"
-     text="Every website is guarenteed to be responsive to any device, testing over 20+ most commonly used resolutions for today's devices. User experience is incredibly important to us,
-     aswell as a very important metric. Whether you're a blog trying to gain subscribers, or an HVAC company trying to increase sales, a users experience is the core factor on whether or 
-     not its worth the stress or difficulty of using your service. That's why all of our Designs are created with every customer in mind, resulting in modern, and easy to use websites."
+     title="Mobile Responsive"
+     text="The new industry standard is Mobile First Web Design. 
+     According to Leftronic, approximately 60% of the world's population accesses the internet atleast once a day using a mobile device. 
+     That's why Sentry Bridge only creates mobile friendly, mobile responsive, and mobile compatiable websites."
      />
       <ResponsiveDesktop 
      title="Rigorous Testing"
-     text="Every website is guarenteed to be responsive to any device, testing over 20+ most commonly used resolutions for today's devices. User experience is incredibly important to us,
-     aswell as a very important metric. Whether you're a blog trying to gain subscribers, or an HVAC company trying to increase sales, a users experience is the core factor on whether or 
-     not its worth the stress or difficulty of using your service. That's why all of our Designs are created with every customer in mind, resulting in modern, and easy to use websites."
+     text="User experience is incredibly important to us, aswell as a very important factor in our product creation. We test on over 20+
+      of most commonly used resolutions for today's devices - both mobile and desktop, to ensure a fully accomodating end-product. "
      />
      <TechMiddle 
       title="Tech Stack"
@@ -69,7 +71,7 @@ export default function Home() {
      leftdescription="At Sentry Bridge we follow new, strict industry practices in both our Design and Code 
      to provide powerful websites for our clients, and their customers. Branding is important, and your company's 
      website is practically the packaging for your product. Whether the impression you want to leave is professional 
-     because your sell watches, or playful because you sell candles, Sentry Bridge can do it. 
+     because your sell watches, or playful because you sell candles, our custom designs can accomodate any tone. 
           "
      righttitle="Mobile"
      rightdescription="
@@ -92,7 +94,12 @@ export default function Home() {
      in Search Engines like Google, Bing, and DuckDuckGo." 
     
      />
- 
+    <Contact 
+    contacttitle="Request a Quote"
+    contactdescription="Each project has a different set of needs, making pricing subjective. 
+    Sentry Bridge provides incredible value at competitive costs, as our ultimate goal is to provide powerful, breath-taking websites, and increase 
+    ROI and conversion rates for our clients."
+    />
 
       </Container>
     </Layout>

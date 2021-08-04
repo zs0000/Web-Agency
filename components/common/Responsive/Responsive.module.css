@@ -11,17 +11,21 @@
 }
 
 .item {
-    @apply lg:w-1/2  font-serif justify-center items-center lg:flex lg:flex-col lg:h-screen xs:bg-black xs:py-6 xs:bg-opacity-60 lg:bg-gray-50;
+    @apply lg:w-1/2  font-serif justify-center items-center lg:flex lg:flex-col lg:h-screen xs:bg-black xs:py-6 xs:bg-opacity-20 lg:bg-gray-50;
 }
 
 .mobile {
-    @apply lg:w-1/2 justify-center items-center flex lg:h-screen md:border-gray-100 lg:border-r;
+    @apply lg:w-1/2  drop-shadow justify-center items-center flex lg:h-screen md:border-gray-100 lg:border-r;
 }
 
 .title {
-    @apply  lg:text-6xl text-5xl xs:my-4 md:my-6 lg:my-6 xl:my-10 text-center lg:text-gray-600 xs:text-white ;
+    @apply  lg:text-6xl text-5xl lg:flex xs:hidden md:my-6 lg:my-6 xl:my-10 text-center lg:text-gray-600 ;
+}
+
+.responsivetitle {
+    @apply  lg:hidden font-serif shadow-xl rounded-2xl py-8 mx-6 md:text-7xl text-6xl xs:my-4 md:my-6 lg:my-6 xl:my-10 text-center lg:text-gray-600 xs:text-white ;
 }
 
 .text {
-    @apply  xl:text-2xl lg:text-xl md:text-xl xs:text-lg xs:tracking-tight lg:w-2/3 mx-8 text-justify lg:text-gray-700  xs:text-white ;
+    @apply  xl:text-2xl lg:text-xl md:text-xl xs:text-lg xs:tracking-tight lg:w-2/3 mx-8 xs:pb-2 text-justify lg:text-gray-700  xs:text-white ;
 }

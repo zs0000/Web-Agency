@@ -26,7 +26,7 @@
 }
 
 .servicedescription {
-    @apply text-lg  text-white;
+    @apply text-lg text-white;
 }
 
 .navlink {

@@ -10,9 +10,13 @@ export default function ResponsiveDesktop({title, text}) {
         <div className={s.main}>
             <div className={s.responsive}>
                 <div className={s.content}>
-                   
+                <h3 className={s.responsivetitle}>
+                        {title}
+                        </h3>
                 <figure className={s.desktopsmall}>
+                <a href="https://commerce-sq6t.vercel.app" target="_blank">
                 <Image src={Desktop} width={663} height={383} alt="Desktop Responsive Website examples." layout="intrinsic" />
+                </a>
                     </figure>
                   
                     <div className={s.item}>
@@ -25,7 +29,9 @@ export default function ResponsiveDesktop({title, text}) {
                     
                     </div>
                     <figure className={s.desktop}>
+                    <a href="https://commerce-sq6t.vercel.app" target="_blank">
                 <Image src={Desktop} width={663} height={383} alt="Desktop Responsive Website examples." layout="intrinsic" />
+                    </a>
                     </figure>
                 </div>
             </div>

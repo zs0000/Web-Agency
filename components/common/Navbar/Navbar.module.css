@@ -1,0 +1,11 @@
+.main {
+    @apply  flex flex-row lg:justify-end xs:justify-evenly absolute bg-gray-500 shadow-sm border-b border-gray-200 bg-opacity-20 w-full py-6  xl:z-30 xs:z-50;
+}
+
+.items {
+    @apply flex flex-row justify-evenly lg:w-1/2 xs:w-full font-serif text-white  xl:mr-24;
+}
+
+.item {
+    @apply xl:text-xl lg:text-lg hover:underline;
+}

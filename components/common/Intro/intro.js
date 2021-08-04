@@ -1,4 +1,6 @@
 import s from "../Intro/intro.module.css"
+import Navbar from "../Navbar/navbar"
+
 
 
 
@@ -6,10 +8,10 @@ export default function Intro({title, description}) {
     return(
         <>
         <section >
-            
+            <Navbar />
 
             <div className={s.content}>
-        
+  
             <div className={s.centerbox}>
                 <h1 className={s.title}>{title}</h1>
                 <p className={s.description}>{description}</p>

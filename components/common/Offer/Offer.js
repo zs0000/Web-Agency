@@ -10,7 +10,9 @@ export default function Offer({text,
     }) {
     return(
         <section>
+            
             <div className={s.main}>
+            <span className={s.spannav}  id="test"></span>
                 <div className={s.responsive}>
                     <div className={s.textbox}>
                         <h2 className={s.text}>{text}</h2>
@@ -21,7 +23,7 @@ export default function Offer({text,
                         <div className={s.card}>
 
                             <h3 className={s.servicetitle}>
-                            <a className={s.navlinks} href="/">
+                            <a className={s.navlinks} href="#responsive">
                             {first}
                             </a>
                             </h3>
@@ -30,13 +32,13 @@ export default function Offer({text,
                                 {firstservicedescription}
                             </p>
                             <div className={s.navlink}>
-                            <a  href="/">Learn More</a>
+                            <a  href="#responsive">Learn More</a>
                             </div>
                         </div>
                         <div className={s.card}>
     
                             <h3 className={s.servicetitle}>
-                            <a href="/" className={s.navlinks}>
+                            <a href="/services" className={s.navlinks}>
                             {second}
                             </a>
                             </h3>
@@ -45,7 +47,7 @@ export default function Offer({text,
                                 {secondservicedescription}
                             </p>
                             <div className={s.navlink}>
-                            <a  href="/">Learn More</a>
+                            <a  href="/services">All Services</a>
                             </div>
                             </div>
                     </div>

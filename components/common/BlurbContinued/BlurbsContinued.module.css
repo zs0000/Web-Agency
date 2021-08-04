@@ -1,5 +1,5 @@
 .main {
-    @apply   flex flex-col justify-center items-center bg-gray-200 ;
+    @apply   flex flex-col justify-center items-center bg-gray-200 pb-8;
 }
 
 
@@ -30,16 +30,4 @@
     @apply md:flex md:w-1/2 xs:hidden  justify-center items-center;
 }
 
-.navarrow {
-    @apply  xs:w-10 z-40 bg-gray-600 bg-opacity-70 rounded-xl animate-bounce;
-    scroll-behavior: smooth;
-}
 
-.spannav {
-    @apply bg-gray-700;
-}
-
-.navanchor {
-    @apply w-full   flex flex-col justify-center xl:pb-0 md:pb-24 lg:pb-3 items-center;
-    scroll-behavior: smooth;
-}
