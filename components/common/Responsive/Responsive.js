@@ -22,10 +22,10 @@ export default function Responsive({title, text}) {
                     </figure>
                   
                     <div className={s.item} >
-                        <h3 className={s.title} data-aos="fade-left">
+                        <h3 className={s.title} data-aos="fade-up">
                         {title}
                         </h3>
-                    <figcaption className={s.text} data-aos="fade-left">
+                    <figcaption className={s.text} data-aos="fade-in">
                             {text}
                     </figcaption>
                     </div>

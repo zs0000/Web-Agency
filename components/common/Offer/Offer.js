@@ -24,7 +24,7 @@ export default function Offer({text,
                     </div>
 
                     <div className={s.offers}>
-                        <div className={s.card} data-aos="fade-right">
+                        <div className={s.card} data-aos="flip-right">
 
                             <h3 className={s.servicetitle}>
                             <a className={s.navlinks} href="#responsive">
@@ -39,7 +39,7 @@ export default function Offer({text,
                             <a  href="#responsive">Learn More</a>
                             </div>
                         </div>
-                        <div className={s.card} data-aos="fade-left">
+                        <div className={s.card} data-aos="flip-left">
     
                             <h3 className={s.servicetitle}>
                             <a href="/services" className={s.navlinks}>
