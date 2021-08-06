@@ -10,7 +10,10 @@ import Layout from "../components/common/Layout/layout"
 import Offer from '../components/common/Offer/Offer'
 import TechMiddle from '../components/common/TechMiddle/TechMiddle'
 import Responsive from '../components/common/Responsive/Responsive'
-
+import AnimationsTest from '../components/common/AnimationsTest/AnimationsTest'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Script from 'next/script'
 
 export default function Home() {
 
@@ -20,13 +23,15 @@ export default function Home() {
     <Layout>
       <Head>
       <title>Sentry Bridge Web Design - Modern Websites Company</title>
-      
+
       </Head>
       <Container>
         <Background />
       <Intro
       title="Sentry Bridge"
-      description="Modern Web Design Company, Specializing in Web Design, Development, and SEO Optimized builds."
+      description="Modern Web Design Company, Specializing in Web Design, Development, and SEO Optimization."
+      />
+      <AnimationsTest
       />
      <Offer
      text="Main Services We Offer"
@@ -94,13 +99,17 @@ export default function Home() {
      in Search Engines like Google, Bing, and DuckDuckGo." 
     
      />
+     
     <Contact 
     contacttitle="Request a Quote"
     contactdescription="Each project has a different set of needs, making pricing subjective. 
     Sentry Bridge provides incredible value at competitive costs, as our ultimate goal is to provide powerful, breath-taking websites, and increase 
     ROI and conversion rates for our clients."
     />
-
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <Script>
+    AOS.init();
+  </Script>
       </Container>
     </Layout>
   )

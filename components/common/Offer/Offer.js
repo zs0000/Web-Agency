@@ -1,5 +1,8 @@
 import s from "./Offer.module.css"
 
+// ..
+
+
 
 export default function Offer({text,
      description,
@@ -8,19 +11,20 @@ export default function Offer({text,
         second,
      secondservicedescription
     }) {
+     
     return(
         <section>
-            
-            <div className={s.main}>
+
+            <div  className={s.main}>
             <span className={s.spannav}  id="test"></span>
                 <div className={s.responsive}>
-                    <div className={s.textbox}>
-                        <h2 className={s.text}>{text}</h2>
+                    <div className={s.textbox} data-aos="zoom-in">
+                        <h2 className={s.text} >{text}</h2>
                         <p className={s.description}>{description}</p>
                     </div>
 
                     <div className={s.offers}>
-                        <div className={s.card}>
+                        <div className={s.card} data-aos="fade-right">
 
                             <h3 className={s.servicetitle}>
                             <a className={s.navlinks} href="#responsive">
@@ -35,7 +39,7 @@ export default function Offer({text,
                             <a  href="#responsive">Learn More</a>
                             </div>
                         </div>
-                        <div className={s.card}>
+                        <div className={s.card} data-aos="fade-left">
     
                             <h3 className={s.servicetitle}>
                             <a href="/services" className={s.navlinks}>

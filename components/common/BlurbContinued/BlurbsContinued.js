@@ -9,7 +9,7 @@ export default function BlurbsContinued({lefttitle, leftdescription, righttitle,
         <section>
         <div className={s.main}>
             <div className={s.responsive}>
-            <div className={s.blurb}>
+            <div className={s.blurb} data-aos="fade-down-right">
             <div className={s.img}>
                 <Image src={Serverless} width={640} quality={100} height={430} layout="intrinsic" />
             </div>
@@ -18,7 +18,7 @@ export default function BlurbsContinued({lefttitle, leftdescription, righttitle,
             <div className={s.description}>{leftdescription}</div>
             </div>
             </div>
-            <div className={s.blurb}>
+            <div className={s.blurb} data-aos="fade-up-left">
             <div className={s.rightimg}>
                 <Image  src={Mobile} width={640} quality={100} height={430} layout="intrinsic" />
                 </div>

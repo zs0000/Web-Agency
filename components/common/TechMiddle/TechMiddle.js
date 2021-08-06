@@ -30,7 +30,7 @@ export default function TechMiddle({
             <div className={s.contain}>
                 
  
-                <div className={s.titlebox}>
+                <div className={s.titlebox} data-aos="flip-down">
 
                     <h2 className={s.title}>
                     
@@ -39,7 +39,7 @@ export default function TechMiddle({
                     <p className={s.description}>{description}</p>
                 </div>
                 <div className={s.boxes}>
-                <ul className={s.techbox}>
+                <ul className={s.techbox} data-aos="fade-left">
                     <li className={s.techitem}>
                         <a href="https://www.shopify.com" target="_blank">
                         <Image src={shopifyimg} width={128} height={128} layout="intrinsic" />
@@ -65,7 +65,7 @@ export default function TechMiddle({
                         </a>
                     </li>
                 </ul>
-                <ul className={s.codebox}>
+                <ul className={s.codebox} data-aos="fade-right">
                 <li className={s.codeitem}>
                 <a href="https://tailwindcss.com/" target="_blank">
                         <Image src={tailwindimg} width={128} height={128} layout="intrinsic" />
