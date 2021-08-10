@@ -1,7 +1,7 @@
 import Image from "next/image"
 import s from "./Responsive.module.css"
 
-import Mobile from "../../../public/assets/Responsive/mobileisolated.png"
+import Mobile from "../../../public/assets/Responsive/newim.png"
 
 
 export default function Responsive({title, text}) {

@@ -13,15 +13,15 @@ export default function Navbar() {
                     </Link>
                 </div>
                 <div className={s.item}>
-                    <Link href="/about">
+                    <Link href="/#test">
                     <a  className={s.link}>
-                        About
+                        Services
                     </a>
                     </Link>
                 </div>
                 <div className={s.item}>
 
-                    <a href="#contact" className={s.link}>
+                    <a href="/#contact" className={s.link}>
                         Contact Us
                     </a>
 

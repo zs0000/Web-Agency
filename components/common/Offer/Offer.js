@@ -27,7 +27,7 @@ export default function Offer({text,
                         <div className={s.card} data-aos="flip-right">
 
                             <h3 className={s.servicetitle}>
-                            <a className={s.navlinks} href="#responsive">
+                            <a className={s.navlinks} href="/#responsive">
                             {first}
                             </a>
                             </h3>
@@ -36,13 +36,13 @@ export default function Offer({text,
                                 {firstservicedescription}
                             </p>
                             <div className={s.navlink}>
-                            <a  href="#responsive">Learn More</a>
+                            <a  href="/#responsive">Learn More</a>
                             </div>
                         </div>
                         <div className={s.card} data-aos="flip-left">
     
                             <h3 className={s.servicetitle}>
-                            <a href="/services" className={s.navlinks}>
+                            <a href="/#contact" className={s.navlinks}>
                             {second}
                             </a>
                             </h3>
@@ -51,7 +51,7 @@ export default function Offer({text,
                                 {secondservicedescription}
                             </p>
                             <div className={s.navlink}>
-                            <a  href="/services">All Services</a>
+                            <a  href="/#contact">Contact Us</a>
                             </div>
                             </div>
                     </div>

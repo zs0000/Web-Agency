@@ -1,7 +1,7 @@
 import Image from "next/image"
 import s from "./ResponsiveDesktop.module.css"
 
-import Desktop from "../../../public/assets/Responsive/desktopisolated.png"
+import Desktop from "../../../public/assets/Responsive/newid.png"
 
 
 export default function ResponsiveDesktop({title, text}) {
@@ -14,7 +14,7 @@ export default function ResponsiveDesktop({title, text}) {
                         {title}
                         </h3>
                 <figure className={s.desktopsmall} >
-                <a href="https://commerce-sq6t.vercel.app"  target="_blank">
+                <a href="https://vigilant-bassi-69c77f.netlify.app/"  target="_blank">
                 <Image src={Desktop} width={663} height={383} data-aos="fade-up" data-aos-duration="1200"  alt="Desktop Responsive Website examples." layout="intrinsic" />
                 </a>
                     </figure>
@@ -29,7 +29,7 @@ export default function ResponsiveDesktop({title, text}) {
                     
                     </div>
                     <figure className={s.desktop}>
-                    <a href="https://commerce-sq6t.vercel.app" target="_blank">
+                    <a href="https://vigilant-bassi-69c77f.netlify.app/" target="_blank">
                 <Image src={Desktop} width={663} height={383} data-aos="fade-up" data-aos-duration="1200" alt="Desktop Responsive Website examples." layout="intrinsic" />
                     </a>
                     </figure>

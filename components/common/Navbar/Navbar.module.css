@@ -1,5 +1,5 @@
 .main {
-    @apply  flex flex-row lg:justify-end xs:justify-evenly absolute bg-gray-800 shadow-sm border-b xl:border-gray-400 xs:border-gray-500 xs:bg-opacity-90 lg:bg-opacity-100 w-full py-6  xl:z-30 xs:z-50;
+    @apply  flex flex-row lg:justify-end xs:justify-evenly absolute xs:bg-gray-800 shadow-sm border-b xl:border-gray-400 xs:border-gray-500 xs:bg-opacity-90 lg:bg-opacity-80 w-full py-6  xl:z-30 xs:z-50;
     -webkit-animation: fadein 1.2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.2s; /* Firefox < 16 */
         -ms-animation: fadein 1.2s; /* Internet Explorer */

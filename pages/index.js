@@ -36,26 +36,26 @@ export default function Home() {
      <Offer
      text="Main Services We Offer"
      description="Every project requires a different set of services depending on your needs. Some circumstantial 
-     services might be an SEO growth plan and maintenace,  or consulting services for web design or SEO purposes."
+     services might be an SEO growth plan and maintenance,  or consulting services for web design or SEO purposes."
     first="Responsive Web Design and Development"
     firstservicedescription="The first impression is the most important. Let Sentry Bridge create a fast, breath-taking, 
     website to ensure every first impression is memorable, and powerful. Drag and Drop Site builders create mediocre, non-unique websites.
      Stand out with Sentry Bridge."
     second="Web Design, SEO Growth and Maintenance plans"
     secondservicedescription="Work directly with a Designer and Developer to create an SEO growth plan, style mark ups, or audit your current site to identify what we 
-    call 'breaking points', and receive advice or assitance with implementation of your new found solutions."
+    call 'breaking points', and receive advice or assistance with implementation of your new found solutions."
 
      />
      <Responsive 
      title="Mobile Responsive"
      text="The new industry standard is Mobile First Web Design. 
-     According to Leftronic, approximately 60% of the world's population accesses the internet atleast once a day using a mobile device. 
-     That's why Sentry Bridge only creates mobile friendly, mobile responsive, and mobile compatiable websites."
+     According to Leftronic, approximately 60% of the world's population accesses the internet at least once a day using a mobile device. 
+     That's why Sentry Bridge only creates mobile friendly, mobile responsive, and mobile compatible  websites."
      />
       <ResponsiveDesktop 
      title="Rigorous Testing"
-     text="User experience is incredibly important to us, aswell as a very important factor in our product creation. We test on over 20+
-      of most commonly used resolutions for today's devices - both mobile and desktop, to ensure a fully accomodating end-product. "
+     text="User experience is incredibly important to us, as well as a very important factor in our product creation. We test on over 20+
+      of most commonly used resolutions for today's devices - both mobile and desktop, to ensure a fully accommodating end-product. "
      />
      <TechMiddle 
       title="Tech Stack"
@@ -82,7 +82,7 @@ export default function Home() {
      rightdescription="
      Designs that never break, regardless of the device used. In 2020, there 
      was just over 4.2 billion unique users who accessed the internet through a mobile device according 
-     to Statista. Google has even added a metric to measure mobile accomodation, which impacts SEO ranking.
+     to Statista. Google has even added a metric to measure mobile accommodation, which impacts SEO ranking.
         " 
      />
      <Blurbs
