@@ -16,7 +16,7 @@ export default function Responsive({title, text}) {
                         {title}
                         </h3>
                 <figure className={s.mobile} >
-                    <a href="https://commerce-sq6t.vercel.app" target="_blank">
+                    <a href="https://vigilant-bassi-69c77f.netlify.app/" target="_blank">
                 <Image src={Mobile} width={515} height={669} data-aos="flip-right" alt="Mobile Responsive Website examples." layout="intrinsic" />
                     </a>
                     </figure>

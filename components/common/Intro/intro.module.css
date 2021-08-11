@@ -9,11 +9,11 @@
 }
 
 .description {
-    @apply text-blue-400 text-opacity-70 tracking-tight pb-2 md:text-lg w-5/6 xl:w-11/12 xl:text-xl md:pt-3 z-40;
+    @apply text-blue-400 text-opacity-70 tracking-tight pb-2 md:text-lg w-5/6 xl:w-7/12 xl:text-xl md:pt-3 z-40;
 }
 
 .centerbox {
-    @apply flex flex-col justify-center bg-gray-50 xs:bg-opacity-90 shadow lg:rounded-xl items-center text-center 3xl:mt-96 z-40 md:pb-4  pb-1;
+    @apply flex flex-col justify-center bg-gray-50 xs:bg-opacity-90 shadow lg:rounded-xl xl:w-7/12 items-center text-center 3xl:mt-96 z-40 md:pb-4  pb-1;
     -webkit-animation: fade-in-bottom 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in-bottom 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }

@@ -1,0 +1,27 @@
+.main {
+    @apply h-screen max-h-screen bg-gray-800 flex justify-center;
+}
+
+.responsive {
+    @apply bg-none;
+}
+
+.content {
+    @apply py-16;
+}
+
+.item {
+    @apply flex flex-col justify-center items-center mx-4;
+}
+
+.title {
+    @apply text-8xl my-4 text-center text-white font-serif;
+}
+
+.description {
+    @apply text-white text-center font-serif text-2xl;
+}
+
+.button {
+    @apply text-3xl my-8 py-4 px-4 text-white border;
+}

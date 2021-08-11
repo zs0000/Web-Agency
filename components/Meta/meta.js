@@ -5,7 +5,9 @@ export default function Meta() {
     <Head>
       <meta
         name="description"
-        content={`Web Developer that specializes in the design, creation, and amplification of E-Commerce stores. Responsive Mobile-first desgin, with SEO tools.`}
+        content={`Sentry Bridge is a Seattle, Washington based Web design
+         company that works with businesses small to large, to create
+          affordable, Mobile and SEO Friendly Websites.`}
       />
     </Head>
   )

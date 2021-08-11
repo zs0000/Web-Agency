@@ -14,6 +14,7 @@ import AnimationsTest from '../components/common/AnimationsTest/AnimationsTest'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Script from 'next/script'
+import Portfolio from '../components/common/Portfolio/Portfolio'
 
 export default function Home() {
 
@@ -22,14 +23,14 @@ export default function Home() {
     
     <Layout>
       <Head>
-      <title>Sentry Bridge Web Design - Modern Websites Company</title>
+      <title>Seattle Web Design Company - Sentry Bridge Website Builder</title>
 
       </Head>
       <Container>
         <Background />
       <Intro
       title="Sentry Bridge"
-      description="Modern Web Design Company, Specializing in Web Design, Development, and SEO Optimization."
+      description="Modern Web Design Company, based in Seattle, Washington. Specialized in SEO. Affordable websites for small buisness or Large E-Commerce Stores.  "
       />
       <AnimationsTest
       />
@@ -105,6 +106,9 @@ export default function Home() {
     contactdescription="Each project has a different set of needs, making pricing subjective. 
     Sentry Bridge provides incredible value at competitive costs, as our ultimate goal is to provide powerful, breath-taking websites, and increase 
     ROI and conversion rates for our clients."
+    />
+    <Portfolio
+    portfoliotitle="Examples of Our Work"
     />
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <Script>

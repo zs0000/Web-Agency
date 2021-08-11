@@ -1,0 +1,15 @@
+.main {
+    @apply bg-gray-50;
+}
+
+.responsive {
+    @apply bg-none;
+}
+
+.content {
+    @apply bg-none;
+}
+
+.items {
+    @apply bg-none;
+}
