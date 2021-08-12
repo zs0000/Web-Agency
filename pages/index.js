@@ -24,7 +24,7 @@ export default function Home() {
     <Layout>
       <Head>
       <title>Seattle Web Design Company - Sentry Bridge Website Builder</title>
-
+      
       </Head>
       <Container>
         <Background />
