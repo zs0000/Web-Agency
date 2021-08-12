@@ -1,0 +1,15 @@
+.main {
+    @apply h-screen bg-gray-50;
+}
+
+.responsive {
+    @apply bg-none;
+}
+
+.content {
+    @apply bg-none;
+}
+
+.item {
+    @apply bg-none;
+}

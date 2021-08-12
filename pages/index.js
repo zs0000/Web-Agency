@@ -23,8 +23,19 @@ export default function Home() {
     
     <Layout>
       <Head>
-      <title>Seattle Web Design Company - Sentry Bridge Website Builder</title>
-      
+      <title>Affordable Custom Web Design - Professional Website Development</title>
+      <meta
+        name="description"
+        content={`Affordable Custom Web Design. A Professional Website Development team, ready for work. SEO Specialized Plans for Local, small businesses - to eCommerce stores, Blogs, and even Art Galleries. Establish authority for your brand both online and local.`}
+      />
+      <link rel="canonical" href="https://www.sentrybridge.com/"></link>
+      <meta property="og:locale" content="en_US"></meta>
+      <meta property="og:type" content="website"></meta>
+      <meta property="og:title" content="Affordable Custom Web Design - Professional Website Development"></meta>
+      <meta property="og:description" content="Affordable Custom Web Design. A Professional Website Development team, ready for work. SEO Specialized Plans for Local, small businesses - to eCommerce stores, Blogs, and even Art Galleries. Establish authority for your brand both online and local."></meta>
+          <meta property="og:url" content="https://www.sentrybridge.com/"></meta>
+          <meta property="og:site_name" content="Affordable Custom Web Design - Professional Website Development"></meta>
+          <link rel="shortlink" href="https://www.sentrybridge.com/"></link> 
       </Head>
       <Container>
         <Background />
@@ -93,7 +104,7 @@ export default function Home() {
        to Automatic responsive image optimization with loseless quality. Serverless also means Security, as there is no server, or 
        end-point for malicious attackers to target, amongst a vast pool of other benefits. 
           "
-     righttitle="SEO Optimized"
+     righttitle="Priority: SEO"
      rightdescription="Acquiring high SEO ranking is absolutely vital in increasing organic audience reach, 
      and cutting down on marketing and advertisement costs. Stop wasting money pitching to cold crowds, 
      and get in front of customers already in search of what you offer. Sentry Bridge utilizes a tech stack that offers SEO optimized web builds, ultimately increasing your online presence
@@ -105,7 +116,7 @@ export default function Home() {
     contacttitle="Request a Quote"
     contactdescription="Each project has a different set of needs, making pricing subjective. 
     Sentry Bridge provides incredible value at competitive costs, as our ultimate goal is to provide powerful, breath-taking websites, and increase 
-    ROI and conversion rates for our clients."
+    ROI and conversion rates for our clients at affordable costs."
     />
 
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
